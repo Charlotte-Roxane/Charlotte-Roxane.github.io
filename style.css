@@ -1,0 +1,61 @@
+body{
+    background-image: url("background.jpg");
+    width:900px;
+    margin:auto;
+        }
+
+nav>img{
+    background: url('menu.png') no-repeat;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+article{
+    color:black;
+    flex-wrap:wrap;
+}
+
+nav>div{
+    color:white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+
+.carrousel{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('carrousel.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width:900px;
+}
+
+.html{
+    height: 150px;
+    width:800px;
+    background-color: white;
+    margin-left:auto ;
+    margin-right: auto;
+    display: block;
+    position: relative;
+}
+
+
+header>img{
+    justify-content: left;
+}
+
+section{
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+}
